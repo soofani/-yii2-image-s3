@@ -1,0 +1,35 @@
+{
+  "name": "soofani/yii2-image-s3",
+  "description": "Yii2 image thumbnail component",
+  "version": "1.0.0",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "image",
+    "thumbnail",
+    "resize",
+    "crop",
+    "placeholder",
+    "tinypng",
+    "component"
+  ],
+  "authors": [
+    {
+      "name": "Laith Zraikat",
+      "email": "laith.zraikat@gmail.com",
+      "homepage": "https://github.com/soofani"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-imagine": "*",
+    "bower-asset/holderjs": "2.8",
+    "kinglozzer/tinypng": "0.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "soofani\\image\\": ""
+    }
+  }
+}
